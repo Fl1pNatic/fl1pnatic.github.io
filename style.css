@@ -65,9 +65,31 @@ a.link {
 
 .text {
   color: white;
-  display: inline-flex;
+  display: block;
   font-family: 'Source Code Pro', monospace;
   text-decoration: none;
+  margin-left: 5px;
+}
+
+.small_text {
   font-size: 20px;
-  margin: 10px 5px;
+}
+
+.big_text {
+  font-size: 35px;
+}
+
+.project_link {
+  background-color: #004CFF;
+  color: white;
+  padding: 1px 5px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.project_link:hover {
+  color: #004CFF;
+  background-color: black;
 }
