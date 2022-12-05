@@ -3,19 +3,19 @@ html {
 }
 
 .void {
-  display: inline-flex;
+  display: inline-block;
   font-family: 'Source Code Pro', monospace;
   font-size: 35px;
   font-weight: 1000;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: white;
   transition: all 0.1s ease-in-out;
 }
 
 a.nav_link {
   color: white;
-  display: inline-flex;
+  display: inline;
   text-decoration: none;
   padding: 1px 5px;
 }
@@ -48,8 +48,8 @@ a.link {
 }
 
 .big_link {
-  background-color: #004CFF;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 1px 5px;
   text-align: center;
   font-size: 30px;
@@ -58,8 +58,8 @@ a.link {
 }
 
 .big_link:hover {
-  background-color: white;
-  color: #004CFF;
+  background-color: black;
+  color: white;
   transform: scale(1.1);
 }
 
@@ -84,8 +84,10 @@ a.link {
   color: white;
   padding: 1px 5px;
   text-align: center;
-  font-size: 30px;
-  margin: 0px 10px;
+  font-size: 25px;
+  width: auto;
+  margin: 5px 10px;
+  word-wrap: normal;
   transition: all 0.1s ease-in-out;
 }
 
